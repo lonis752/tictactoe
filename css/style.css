@@ -32,14 +32,17 @@ body {
 }
 
 #controls,
-h1,
-#message,
-#result-disp {
+h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 2.4rem;
+}
+
+h1,
+#message,
+#result-disp {
     font-size: 3em;
     animation: color-change 5s infinite;
     gap: 0.6rem;
