@@ -1,0 +1,63 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: aquamarine;
+}
+
+#gameboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.square {
+    display: flex;
+    flex-wrap: wrap;
+    border: 8px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3.6rem;
+    width: 25%;
+    height: 30%;
+    margin: 0;
+}
+
+#controls,
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+#square-0,
+#square-1,
+#square-2 {
+    border-top: none;
+}
+
+#square-6,
+#square-7,
+#square-8 {
+    border-bottom: none;
+}
+
+#square-0,
+#square-3,
+#square-6 {
+    border-left: none;
+}
+
+#square-2,
+#square-5,
+#square-8 {
+    border-right: none;
+}
