@@ -12,7 +12,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 18rem;
+    width: 24rem;
     justify-content: center;
     margin-top: 6rem;
 }
@@ -31,11 +32,26 @@ body {
 }
 
 #controls,
-h1 {
+h1,
+#message,
+#result-disp {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 6rem;
+    margin-top: 2.4rem;
+    font-size: 3em;
+    animation: color-change 5s infinite;
+    gap: 0.6rem;
+}
+  
+@keyframes color-change {
+0% { color: red; }
+20% { color: yellow; }
+40% { color: purple; }
+60% { color: orange; }
+80% { color: pink; }
+100% { color: red; }
 }
 
 #square-0,
